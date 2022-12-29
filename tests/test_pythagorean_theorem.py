@@ -25,5 +25,5 @@ class TestHypotenuse(unittest.TestCase):
             c = hypotenuse(3.0, 0.0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
