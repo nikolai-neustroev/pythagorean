@@ -5,8 +5,8 @@ from src.pythagorean_theorem import hypotenuse
 
 
 class Request(BaseModel):
-    a: int
-    b: int
+    a: float
+    b: float
 
 
 app = FastAPI()

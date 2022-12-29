@@ -1,5 +1,5 @@
-def hypotenuse(a, b):
-    if a > 0 and b > 0:
+def hypotenuse(a: float, b: float):
+    if a > 0.0 and b > 0.0:
         c = (a**2 + b**2)**0.5
         return c
     else:
