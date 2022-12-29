@@ -23,7 +23,7 @@ def calculate_hypotenuse(request: Request):
         a = request.a
         b = request.b
         c = hypotenuse(a, b)
-        logging.INFO("Calculated c = %d", c)
+        logging.info("Calculated c = %d", c)
         return {"c": c}
     except Exception as e:
         logging.exception("Error calculating hypotenuse: %s", e)
