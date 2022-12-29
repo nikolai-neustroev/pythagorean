@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from pythagorean_theorem import hypotenuse
+from src.pythagorean_theorem import hypotenuse
 
 
 class Request(BaseModel):
